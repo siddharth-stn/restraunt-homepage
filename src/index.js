@@ -1,1 +1,2 @@
-alert("Hello I am Working Fine");
+import page_load from "./page-load.js"
+
