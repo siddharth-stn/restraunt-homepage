@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#content {
+    background-image: url("../src/static/background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    background: rgb(128,128,128, 0.5);
+    box-shadow: teal 0px 3px;
+}
+
+#header-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 300px;
+    font-size: 1.8rem;
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+}
+
+#home-tab, #menu-tab {
+    border-right:white 2px solid;
+    padding-right: 20px;
+}
+#home-tab, #menu-tab, #contact-tab {
+    padding-left: 20px;
+}
+
+a:hover {
+    background: white;
+    color:teal;
+    border-radius: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* Add this class to home tab in javascript to keep the home tab selected 
+when the page loads */
+.focus {
+    background: white;
+    color: teal;
+    border-radius: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+/* Home tab page Elements styling */
+#home_div {
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(230, 221, 221);
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+#intro_title {
+    font-size: 5rem;
+    font-family: 'mulish';
+    padding-bottom: 20px;
+}
+
+/* Menu Tab Page Elements styling */
+#menu_div {
+    background: rgb(0,0,0, 0.5);
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(218, 212, 212);
+    font-size: 2.3rem;
+    font-family:'Roboto Mono', monospace;
+}
+
+#title {
+    border-bottom: teal 2px solid;
+    font-size: 3.0rem;
+}
+
+/* Contact Tab Page Elements Styling */
+
+#contact_div {
+    background: rgb(0,0,0, 0.5);
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(218, 212, 212);
+    font-size: 1.5rem;
+    font-family:'Roboto Mono', monospace;
+}
+
+#contact_title {
+    border-bottom: teal 2px solid;
+    font-size: 2.3rem;
+}
