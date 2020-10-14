@@ -7,7 +7,7 @@
 }
 
 #content {
-    background-image: url("https://github.com/siddharth-stn/restraunt-homepage/blob/master/src/static/background.jpg");
+    background-image: url("/src/static/background.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
